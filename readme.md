@@ -1,11 +1,11 @@
 # Laravel Gmail
 
-[![Build Status](https://scrutinizer-ci.com/g/dacastro4/laravel-gmail/badges/build.png?b=master)](https://scrutinizer-ci.com/g/dacastro4/laravel-gmail/build-status/master)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/dacastro4/laravel-gmail/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/dacastro4/laravel-gmail/?branch=master)
-[![GitHub issues](https://img.shields.io/github/issues/dacastro4/laravel-gmail.svg)](https://github.com/dacastro4/laravel-gmail/issues)
-[![Total Downloads](https://poser.pugx.org/dacastro4/laravel-gmail/downloads)](https://packagist.org/packages/dacastro4/laravel-gmail)
-[![Monthly Downloads](https://poser.pugx.org/dacastro4/laravel-gmail/d/monthly)](https://packagist.org/packages/dacastro4/laravel-gmail)
-[![GitHub license](https://img.shields.io/github/license/dacastro4/laravel-gmail.svg)](https://github.com/dacastro4/laravel-gmail/blob/master/LICENSE)
+[![Build Status](https://scrutinizer-ci.com/g/F9xTech/laravel-gmail/badges/build.png?b=master)](https://scrutinizer-ci.com/g/F9xTech/laravel-gmail/build-status/master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/F9xTech/laravel-gmail/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/F9xTech/laravel-gmail/?branch=master)
+[![GitHub issues](https://img.shields.io/github/issues/F9xTech/laravel-gmail.svg)](https://github.com/F9xTech/laravel-gmail/issues)
+[![Total Downloads](https://poser.pugx.org/F9xTech/laravel-gmail/downloads)](https://packagist.org/packages/F9xTech/laravel-gmail)
+[![Monthly Downloads](https://poser.pugx.org/F9xTech/laravel-gmail/d/monthly)](https://packagist.org/packages/F9xTech/laravel-gmail)
+[![GitHub license](https://img.shields.io/github/license/F9xTech/laravel-gmail.svg)](https://github.com/F9xTech/laravel-gmail/blob/master/LICENSE)
 
 
 # Gmail
@@ -51,7 +51,7 @@ GOOGLE_ALLOW_JSON_ENCRYPT
 
 To modify the scopes and the credentials file name, just run:
 
-Run `php artisan vendor:publish --provider="Dacastro4\LaravelGmail\LaravelGmailServiceProvider"` and modify the config file `config/gmail.php`.
+Run `php artisan vendor:publish --provider="F9xTech\LaravelGmail\LaravelGmailServiceProvider"` and modify the config file `config/gmail.php`.
 
 ### Allow multi user credentials
 To allow multi user credentials change `allow_multiple_credentials` to `true` in your config file or set the .env variable
@@ -160,7 +160,7 @@ Generally speaking, it is a bad practice to use API for pagination. It is slow a
 ## Sending
 
 ```
-use Dacastro4\LaravelGmail\Services\Message\Mail;
+use F9xTech\LaravelGmail\Services\Message\Mail;
 
 ...
 
@@ -305,7 +305,7 @@ Example:
 ## Attachment
 
 ```
-use Dacastro4\LaravelGmail\Services\Message\Attachment
+use F9xTech\LaravelGmail\Services\Message\Attachment
 ...
 
 $attachment = new Attachment;
@@ -352,7 +352,7 @@ To get all unread emails: `LaravelGmail::message()->unread()->all()`
 
 `message()->raw($query)` for customized queries
 
-All the possible filters are in the [Filterable Trait](https://github.com/dacastro4/laravel-gmail/blob/master/src/Traits/Filterable.php)
+All the possible filters are in the [Filterable Trait](https://github.com/F9xTech/laravel-gmail/blob/master/src/Traits/Filterable.php)
 
 Of course you can use as a fluent api.
 
@@ -369,7 +369,7 @@ Of course you can use as a fluent api.
 ## Attachment
 
 ```
-use Dacastro4\LaravelGmail\Services\Message\Attachment
+use F9xTech\LaravelGmail\Services\Message\Attachment
 ...
 
 $attachment = new Attachment;
@@ -416,7 +416,7 @@ To get all unread emails: `LaravelGmail::message()->unread()->all()`
 
 `message()->raw($query)` for customized queries
 
-All the possible filters are in the [Filterable Trait](https://github.com/dacastro4/laravel-gmail/blob/master/src/Traits/Filterable.php)
+All the possible filters are in the [Filterable Trait](https://github.com/F9xTech/laravel-gmail/blob/master/src/Traits/Filterable.php)
 
 Of course you can use as a fluent api.
 
