@@ -1,14 +1,6 @@
 # Laravel Gmail
 
-[![Build Status](https://scrutinizer-ci.com/g/F9xTech/laravel-gmail/badges/build.png?b=master)](https://scrutinizer-ci.com/g/F9xTech/laravel-gmail/build-status/master)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/F9xTech/laravel-gmail/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/F9xTech/laravel-gmail/?branch=master)
-[![GitHub issues](https://img.shields.io/github/issues/F9xTech/laravel-gmail.svg)](https://github.com/F9xTech/laravel-gmail/issues)
-[![Total Downloads](https://poser.pugx.org/F9xTech/laravel-gmail/downloads)](https://packagist.org/packages/F9xTech/laravel-gmail)
-[![Monthly Downloads](https://poser.pugx.org/F9xTech/laravel-gmail/d/monthly)](https://packagist.org/packages/F9xTech/laravel-gmail)
-[![GitHub license](https://img.shields.io/github/license/F9xTech/laravel-gmail.svg)](https://github.com/F9xTech/laravel-gmail/blob/master/LICENSE)
 
-
-# Gmail
 Gmail API for Laravel 10
 
 You need to create an application in the [Google Console](https://console.developers.google.com/apis/credentials). Guidance [here](https://developers.google.com/gmail/api/quickstart/php#step_1_turn_on_the_api_name).
