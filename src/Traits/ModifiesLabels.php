@@ -1,8 +1,8 @@
 <?php
 
-namespace Dacastro4\LaravelGmail\Traits;
+namespace F9xTech\LaravelGmail\Traits;
 
-use Dacastro4\LaravelGmail\Services\Message\Mail;
+use F9xTech\LaravelGmail\Services\Message\Mail;
 use Google_Service_Gmail_ModifyMessageRequest;
 
 trait ModifiesLabels

@@ -33,7 +33,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Dacastro4\\LaravelGmail\\": "src/"
+      "F9xTech\\LaravelGmail\\": "src/"
     }
   },
   "autoload-dev": {
@@ -44,10 +44,10 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Dacastro4\\LaravelGmail\\LaravelGmailServiceProvider"
+        "F9xTech\\LaravelGmail\\LaravelGmailServiceProvider"
       ],
       "aliases": {
-        "LaravelGmail": "Dacastro4\\LaravelGmail\\Facade\\LaravelGmail"
+        "LaravelGmail": "F9xTech\\LaravelGmail\\Facade\\LaravelGmail"
       }
     }
   },

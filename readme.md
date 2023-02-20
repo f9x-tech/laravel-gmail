@@ -25,15 +25,15 @@ if you need **Laravel 8** compatibility please use version `5.0.x`.
 
 # Installation
 
-Add dacastro4/laravel-gmail to composer.json.
+Add f9x-tech/laravel-gmail to composer.json.
 
-`"dacastro4/laravel-gmail": "^6.1"`
+`"f9x-tech/laravel-gmail": "^1.0"`
 
 Run composer update to pull down the latest version.
 
 Or run
 
-`composer require dacastro4/laravel-gmail`
+`composer require f9x-tech/laravel-gmail`
 
 Now open up `config/app.php` and add the service provider to your providers array.
 
