@@ -401,7 +401,7 @@ trait Replyable
 	private function getMessageBody()
 	{
 		$body = new Google_Service_Gmail_Message();
-
+		
 		$this->symfonyEmail
 			->from($this->fromAddress())
 			->to($this->toAddress())
@@ -452,11 +452,7 @@ trait Replyable
 
 	public function fromAddress()
 	{
-		if ($this->from) {
-			return new Address($this->from, $this->nameFrom ?: '');
-		}
-
-		return [];
+		return new Address($this->from, $this->nameFrom ?: '');
 	}
 
 	private function base64_encode($data)
