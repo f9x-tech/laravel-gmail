@@ -452,6 +452,12 @@ trait Replyable
 
 	public function fromAddress()
 	{
+		// if ($this->from) {
+		// 	return new Address($this->from, $this->nameFrom ?: '');
+		// }
+
+		// return [];
+
 		return new Address($this->from, $this->nameFrom ?: '');
 	}
 
